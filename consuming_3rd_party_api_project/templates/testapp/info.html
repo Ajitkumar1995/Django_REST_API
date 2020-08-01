@@ -1,0 +1,36 @@
+s='sdhncksdllivsdyssa'
+s1='divya'
+def check(s,s1):
+    for i in range(len(s)):
+         if i==len(s1):
+                break
+         if s[i]==s1[i]:
+    	        return True
+    	 else:
+    	    	return False
+check(s,s1)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body
+        {
+        background:red;
+        color:white;
+        }
+    </style>
+</head>
+<body>
+<h1>Consuming 3rd party API Demo.....</h1><hr>
+<h2>Your Geographic Information:</h2>
+<h3>Your IP Address:{{ip}}</h3>
+<h3>Your Continent Name:{{continent_name}}</h3>
+<h3>Your Country Name:{{country_name}}</h3>
+<h3>Your Region Name:{{region_name}}</h3>
+<h3>Your City:{{city}}</h3>
+<h3>Your Zip:{{zip}}</h3>
+<h3>Your Latitude:{{latitude}}</h3>
+<h3>Your Longitude:{{longitude}}</h3>
+</body>
+</html>
